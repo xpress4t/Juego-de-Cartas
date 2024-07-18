@@ -27,18 +27,30 @@ const cards = [];
 
 colors.forEach((color, index) => {
   cards.push(
-    new Card('1', color, 1, index, 0),
-    new Card('2', color, 2, index, 1),
-    new Card('3', color, 3, index, 2),
-    new Card('4', color, 4, index, 3),
-    new Card('5', color, 5, index, 4),
-    new Card('6', color, 6, index, 5),
-    new Card('7', color, 7, index, 6),
-    new Card('8', color, 8, index, 7),
-    new Card('9', color, 9, index, 8),
-    new Card('forbidden', color, 9, index, 8),
-    new Card('reverse', color, 9, index, 8),
-    new Card('take2', color, 9, index, 8)
+    new Card('1', color, 1, 1, index),
+    new Card('1', color, 1, 1, index),
+    new Card('2', color, 2, 2, index),
+    new Card('2', color, 2, 2, index),
+    new Card('3', color, 3, 3, index),
+    new Card('3', color, 3, 3, index),
+    new Card('4', color, 4, 4, index),
+    new Card('4', color, 4, 4, index),
+    new Card('5', color, 5, 5, index),
+    new Card('5', color, 5, 5, index),
+    new Card('6', color, 6, 6, index),
+    new Card('6', color, 6, 6, index),
+    new Card('7', color, 7, 7, index),
+    new Card('7', color, 7, 7, index),
+    new Card('8', color, 8, 8, index),
+    new Card('8', color, 8, 8, index),
+    new Card('9', color, 9, 9, index),
+    new Card('9', color, 9, 9, index),
+    new Card('forbidden', color, 9, 10, index),
+    new Card('forbidden', color, 9, 10, index),
+    new Card('reverse', color, 9, 11, index),
+    new Card('reverse', color, 9, 11, index),
+    new Card('take2', color, 9, 12, index),
+    new Card('take2', color, 9, 12, index)
   );
 });
 
