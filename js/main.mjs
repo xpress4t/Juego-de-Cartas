@@ -14,9 +14,10 @@ function Card(s, c, p, x, y) {
 
   const picX = x;
   const picY = y;
+
   this.getPicCoords = () => ({
     x: -(cardSize.width * picX - picX),
-    y: -(cardSize.height * picY - picY)
+    y: -(cardSize.height * picY - picY / 2)
   });
 }
 
