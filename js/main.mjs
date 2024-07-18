@@ -1,3 +1,7 @@
+import { cardSize } from './constants.mjs';
+
+console.log(cardSize);
+
 (() => {
   const root = document.getElementById('root');
 
