@@ -1,0 +1,9 @@
+.TextInput {
+  display: flex;
+  flex-direction: column;
+  margin: 12px 0;
+}
+
+.TextInput__Label {}
+
+.TextInput__Field {}

@@ -1,5 +1,5 @@
-import { color, symbols } from "./constants.mjs";
-import { Card } from "./constructors/Card.mjs";
+import { color, symbols } from './constants.mjs';
+import { Card } from './constructors/Card.mjs';
 
 const colors = [color.red, color.yellow, color.green, color.blue];
 
@@ -10,9 +10,9 @@ colors.forEach((color, index) => {
     new Card(symbols.one, color, 1, 1, index),
     new Card(symbols.one, color, 1, 1, index),
     new Card(symbols.two, color, 2, 2, index),
+    new Card(symbols.two, color, 2, 2, index),
     new Card(symbols.three, color, 3, 3, index),
-    new Card(symbols.three, color, 2, 2, index),
-    new Card(symbols.two, color, 3, 3, index),
+    new Card(symbols.three, color, 3, 3, index),
     new Card(symbols.four, color, 4, 4, index),
     new Card(symbols.four, color, 4, 4, index),
     new Card(symbols.five, color, 5, 5, index),
