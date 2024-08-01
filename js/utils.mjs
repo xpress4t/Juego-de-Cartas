@@ -18,4 +18,3 @@ export function showCard(card) {
   const root = document.querySelector("#root");
   root.appendChild(createdDiv);
 }
-
