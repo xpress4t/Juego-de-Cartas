@@ -1,6 +1,6 @@
 export const cardSize = {
   height: 110,
-  width: 74,
+  width: 74.1,
 };
 
 export const color = {
