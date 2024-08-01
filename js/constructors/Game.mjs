@@ -46,8 +46,8 @@ export function Game(p, c) {
     }
   };
 
-  let turn = 0;
   /**
+   * Removes a card from the deck and returns it
    * @returns {Card}
    */
   this.drawCard = () => {
@@ -71,6 +71,7 @@ export function Game(p, c) {
     }
   };
 
+  let turn = 0;
   /**
    * @returns {Player}
    */
