@@ -1,11 +1,26 @@
+@import "./components/form.css";
+@import "./components/button.css";
+@import "./components/formControl.css";
+
 body {
   background-color: #89a9ea;
 }
 
 .App {
-  background-color: #fff;
+  background: linear-gradient(60deg, rgb(86, 217, 249), rgb(213, 72, 245));
   max-width: 1280px;
   margin: 0 auto;
   overflow-y: auto;
   padding: 24px;
+}
+
+.Form__Description {
+  font-size: 30px;
+  font-weight: bold;  
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.Form__Submit {
+  text-align: center;
 }

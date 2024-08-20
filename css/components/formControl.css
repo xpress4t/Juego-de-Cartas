@@ -1,0 +1,17 @@
+.FormControl__Label {
+    color: gray;
+    font-weight: bold;
+}
+  
+.FormControl__Input {
+    border: 0;
+    border-bottom: 1px solid rgb(130, 130, 130);
+    margin-bottom: 15px;
+    padding: 8px;
+    width: 100%;
+}
+  
+.FormControl__Input:focus {
+    border-bottom: 1px solid black;
+    outline: none;
+}

@@ -1,0 +1,10 @@
+.Button{
+    background: linear-gradient(60deg, rgb(86, 217, 249), rgb(213, 72, 245));
+    border: 0;
+    border-radius: 40px;
+    color: white;
+    height: 45px;
+    outline: none;
+    text-transform: uppercase;
+    width: 300px;
+  }
