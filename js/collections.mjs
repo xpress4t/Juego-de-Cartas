@@ -40,3 +40,13 @@ for (let i = 0; i < 4; i++) {
 for (let j = 0; j < 4; j++) {
   cards.push(new Card(symbols.changeColor, color.black, 4, 13, 0));
 }
+
+export const botNames = [
+  "John",
+  "James",
+  "Peter",
+  "Brendan",
+  "Jacob",
+  "Michel",
+  "Louis",
+];

@@ -1,0 +1,48 @@
+<div class="App LoginScreen">
+  <div class="Form">
+    <div class="Form__Description">login</div>
+
+    <form novalidate>
+      <div class="FormControl">
+        <label class="FormControl__Label" for="name">Nombre jugador:</label>
+        <input
+          class="FormControl__Input"
+          type="text"
+          name="nombreJugador"
+          autofocus
+          required
+          placeholder="Escribe tu nombre"
+        />
+      </div>
+
+      <div class="FormControl">
+        <label class="FormControl__Label" for="bots">Número de Bots:</label>
+        <input
+          class="FormControl__Input"
+          type="number"
+          name="numeroBots"
+          value="1"
+          min="1"
+          max="8"
+        />
+      </div>
+
+      <div class="FormControl">
+        <label class="FormControl__Label" for="puntos"
+          >Puntos para ganar:</label>
+        <input
+          class="FormControl__Input"
+          type="number"
+          name="puntosVictoria"
+          value="250"
+          min="1"
+          max="1000"
+        />
+      </div>
+
+      <div class="Form__Submit">
+        <button class="Button" type="submit">login</button>
+      </div>
+    </form>
+  </div>
+</div>
